@@ -258,7 +258,7 @@ if __name__ == '__main__':
             
     
 
-    client.run("OTc4MjI5MzcxNTY1MzkxOTAy.GrKLsp.DHZAD3rzaOrmh5xXFYfNWVf2dUcBG5M1gcspgA")
+    client.run("bottoken")
 
 
 
