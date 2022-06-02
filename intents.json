@@ -2,7 +2,7 @@
     
     {"tag":"nom",
     "patterns":["comment tu t'appelles"," C'est quoi votre prenom","est-ce que je peux savoir ton prenom?"],
-    "responses":[""]
+    "responses":["python ds"]
 },
 {"tag":"Need",
     "patterns":["J'ai besoin de toi ","   Salut","Je voudrais vous parlez","Bonsoir"],

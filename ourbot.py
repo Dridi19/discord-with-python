@@ -56,10 +56,10 @@ class TreeNode:
 
 def build_product_tree():
     root = TreeNode("Bonjour, quelle aide voulez-vous ? Pour Python taper 0, Pour javascript 1, Pour html et css 2, Pour PHP 3")
-    python = TreeNode("Vous avez choisi Python: taper 0 pour les cours, taper 1 pour les documentation, taper 2 pour revenir en arrière")
-    javascript = TreeNode("Vous avez choisi javascript : taper 0 pour les cours, taper 1 pour les documentation, taper 2 pour revenir en arrière")
-    html_et_css = TreeNode("Vous avez choisi html et css: taper 0 pour les cours, taper 1 pour les documentation, taper 2 pour revenir en arrière")
-    PHP = TreeNode("Vous avez choisi PHP: taper 0 pour les cours, taper 1 pour les documentation, taper 2 pour revenir en arrière")
+    python = TreeNode("Vous avez choisi Python: taper 0 pour les cours, taper 1 pour les documentation, taper 2 pour revenir en arrière, taper admin pour appeler un admin ou exit pour sortir")
+    javascript = TreeNode("Vous avez choisi javascript : taper 0 pour les cours, taper 1 pour les documentation, taper 2 pour revenir en arrière, taper admin pour appeler un admin ou exit pour sortir")
+    html_et_css = TreeNode("Vous avez choisi html et css: taper 0 pour les cours, taper 1 pour les documentation, taper 2 pour revenir en arrière, taper admin pour appeler un admin ou exit pour sortir")
+    PHP = TreeNode("Vous avez choisi PHP: taper 0 pour les cours, taper 1 pour les documentation, taper 2 pour revenir en arrière,taper admin pour appeler un admin ou exit pour sortir")
 #python
     python_option1 = TreeNode("Vous avez choisi cours Python: https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/, taper 0 pour revenir en arrière")
     python_option2 = TreeNode("Vous avez choisi documentation Python: docs.python.org/3/, taper 0 pour un approfondissement, taper 1 pour revenir en arrière")
@@ -155,6 +155,9 @@ if __name__ == '__main__':
             if msg.content == "admin":
                 user = await client.fetch_user(254227799429218306)
                 await user.send("{} need help".format(msg.author))
+                await ctx.send("message envoyé à l'admin")
+            elif msg.content == "exit":
+                await ctx.send("exit")
 
             elif int(msg.content)< childlevel:
                 firtlevel= firtlevel.children[int(msg.content)]
