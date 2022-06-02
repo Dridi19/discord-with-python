@@ -50,9 +50,6 @@ class TreeNode:
         else:
             return 0
 
-# tictac
-
-
 
 def build_product_tree():
     root = TreeNode("Bonjour, quelle aide voulez-vous ? Pour Python taper 0, Pour javascript 1, Pour html et css 2, Pour PHP 3")
