@@ -1,0 +1,28 @@
+{"intents":[
+    
+    {"tag":"nom",
+    "patterns":["comment tu t'appelles"," C'est quoi votre prenom","est-ce que je peux savoir ton prenom?"],
+    "responses":[""]
+},
+{"tag":"Need",
+    "patterns":["J'ai besoin de toi ","   Salut","Je voudrais vous parlez","Bonsoir"],
+    "responses":["Bonsoir chers utilisateurs comment je pourrais vous aider ?"]
+},
+{"tag":"Humour",
+    "patterns":["rigoler ","je veux sourire","Peut-tu me faire sourire","Divertissement"],
+    "responses":["Le cerveau est un merveilleux organe. Il démarre au moment où vous vous levez et ne s'arrête qu'au moment où vous arrivez au bureau. Robert Frost", "J'ai pris un cours de lecture rapide et j'ai pu lire Guerre et Paix en vingt minutes. Ça parle de la Russie. Woody Allen",
+"La mariage est comme le restaurant : à peine est-on servi qu'on regarde dans l'assiette du voisin.","Un projet qui commence en retard finira en retard.Un projet qui commence à l'heure finira en retard.","Dans le monde il y a 10 types de personnes,ceux qui comprennent le binaire, et les autres"]
+
+},
+{"tag":"motivation",
+    "patterns":["Je cherche des répliques motivantes ","   motive-moi","peut tu m'encourager?","Bonne humeur"],
+    "responses":["Ce n'est pas parce que les choses sont difficiles que nous n'osons pas, c'est parce que nous n'osons pas qu'elles sont difficiles"
+        , "On regrette rarement d'avoir osé, mais toujours de ne pas avoir essayer."
+        , "Beaucoup de chemins mènent à la réussite, mais un seul mène immanquablement à l'échec, celui qui consiste à tenter de plaire à tout le monde."
+        , "Celui qui avance avec confiance dans la direction de ses rêves connaîtra un succès inattendu dans la vie ordinaire."
+        , "Le succès n'est pas final L'echec n'est pas fatal C'est le courage de continuer qui compte."]
+}
+
+
+
+]}
